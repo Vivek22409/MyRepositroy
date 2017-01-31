@@ -1,0 +1,36 @@
+
+#parent {
+	display: table;
+	width: 100%;
+}
+
+#form_login {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#header_text {
+	text-align: center;	
+}
+
+html, body {
+	height: 100%;
+}
+
+#tableContainer-1 {
+	height: 30%;
+	width: 100%;
+	display: table;
+	horizontal-align:center;	
+}
+
+#tableContainer-2 {
+	vertical-align: middle;
+	display: table-cell;
+	height: 30%;
+}
+
+#myTable {
+	margin: 0 auto;
+	vertical-align: middle;
+}

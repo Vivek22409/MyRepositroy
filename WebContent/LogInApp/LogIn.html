@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/loginStyle.css">
+<script type="text/javascript" src="../jQuery/jQuery.js" >
+</script>
+</head>
+<body>
+	<div id="tableContainer-1">
+		<div id="tableContainer-2">
+		<h2 id="header_text">LogIn Form: </h2>
+			<div id="parent">
+				<!-- loginProcess.jsp -->
+				<form id="form_login" action="login.do" method="get">
+					<table id="myTable" >
+						<tr>
+							<td>Login Id:</td>
+							<td><input type="text" name="id" onblur="validate();"/></td>
+						</tr>
+						<tr>
+							<td>Password:</td>
+							<td><input type="password" name="password" /></td>
+						</tr>						
+					</table>
+					<br /><input type="submit" name="submit" /> <br />
+					<br /> If Not Registered User ! <a href="registration.jsp"> Click here 
+						</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
